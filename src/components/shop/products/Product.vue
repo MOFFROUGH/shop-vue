@@ -25,12 +25,7 @@ export default {
 <style scoped>
   .vue-logo {
     padding-bottom: 75%;
-<<<<<<< HEAD
     background: url('https://d59uqr535x9ht.cloudfront.net/sites/default/files/apex-ct-br-1.webp_.png') no-repeat center center #ddd;
     background-size: 90%;
-=======
-    background: url('./../../../assets/logo.png') no-repeat center center #ddd;
-    background-size: 40%;
->>>>>>> origin/master
   }
 </style>

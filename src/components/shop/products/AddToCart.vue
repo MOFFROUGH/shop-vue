@@ -1,16 +1,9 @@
 <template>
-<<<<<<< HEAD
-  <button type="button" :class="product.inventory?'btn btn-primary':' btn btn-danger'"
+  <button type="button" :class="product.inventory ? 'btn btn-primary' : ' btn btn-danger'"
     :disabled="!product.inventory"
     @click="addToCart(product)">
     {{text}}
-=======
-  <button type="button" class="btn btn-primary"
-    :disabled="!product.inventory"
-    @click="addToCart(product)">
-    Add to cart
->>>>>>> origin/master
-  </button>
+    </button>
 </template>
 
 <script>
@@ -23,15 +16,11 @@ export default {
   },
   methods: mapActions([
     'addToCart'
-<<<<<<< HEAD
   ]),
-  computed : {
+  computed: {
     text () {
-      return this.product.inventory?'Add to cart':'Out of Stock'
+      return this.product.inventory ? 'Add to cart' : 'Out of Stock'
     }
   }
-=======
-  ])
->>>>>>> origin/master
 }
 </script>
